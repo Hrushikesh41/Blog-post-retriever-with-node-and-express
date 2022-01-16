@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amita&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+}
+
+.container .headers .title{
+    font-family: 'Luxurious Roman', cursive;
+    font-size: 2.2rem;
+   text-align: center;
+    margin-top: 1rem;
+}
+
+.container .headers .input{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.container .headers .input input{
+    width: 15%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Play', sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.container .headers .input input::placeholder{
+    font-size: 1rem;
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.container .headers .input button{
+    margin-left: 1rem;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.container .contents{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .contents .error{
+    margin-top: 3rem;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Play', sans-serif;
+}
+
+.container .contents .blogs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container .contents .blogs:last-child{
+    margin-bottom: 1rem;
+}
+
+.container .contents .blogs .post_content{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+    border: 1px solid black;
+    box-shadow: 0 0 8px black;
+    width: 70%;
+}
+
+.container .contents .blogs .post_content .post_detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 50%;
+    font-family: 'Play', sans-serif;
+    font-size: 1.5rem;
+}
+
+.container .contents .blogs .post_content .post_detail hr{
+    margin-top: 20px;
+    width: 90%;
+    height: 1px;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.container .contents .blogs .post_content .image{
+    width: 50%;
+    height: 100%;
+}
+
+.container .contents .blogs .post_content .image img{
+    width: 100%;
+    height: 100%;
+}
+
+.container .contents .blogs .post_content .post_detail .title{
+    font-weight: bold;
+}
+
+.container .contents .blogs .post_content .post_detail .desc{
+    margin-top: 1.5rem;
+}
+
+.container .contents .blogs .post_content .post_detail .authoreDetail{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Amita', cursive;
+}
+
+.container .contents .blogs .post_content .post_detail .authoreDetail .author{
+    margin: 1rem;
+}
+
+.container .contents .blogs .post_content .post_detail .authoreDetail .reaction{
+   margin: 1rem;
+}
+
+.container .contents .blogs .post_content .post_detail .authoreDetail .link{
+  
+    margin: 1rem;
+}
+
+.container .contents .blogs .post_content .post_detail .authoreDetail .link a{
+    color: black;
+    text-decoration: none;
+}

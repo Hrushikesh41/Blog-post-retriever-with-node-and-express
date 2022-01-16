@@ -1,0 +1,46 @@
+.container .headers .input{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .headers .input input{
+    width: 70%;
+}
+
+.container .headers .input button{
+    margin-top: 1rem;
+}
+
+.container .contents .blogs .post_content{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0;
+    margin-top: 1.7rem;
+}
+
+.container .contents .blogs .post_content .image{
+    width: 100%;
+}
+
+.container .contents .blogs .post_content .post_detail{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.container .contents .blogs .post_content .post_detail .authoreDetail{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .contents .blogs .post_content .post_detail .authoreDetail .reaction{
+    margin: 0;
+}
+
+.container .contents .error{
+    text-align: center;
+}
+
+.container .contents .blogs .post_content .post_detail .authoreDetail .link{
+    margin: 0;
+}
